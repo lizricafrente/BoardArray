@@ -16,6 +16,7 @@ class BoardArray : public Board {
         void add(Entry* entry) {
             // TODO: IMPLEMENT THIS FUNCTION
             // ALGORITHM IS PROVIDED IN INSTRUCTIONS.TXT
+<<<<<<< HEAD
 
             int pos = 0;
 
@@ -38,6 +39,9 @@ class BoardArray : public Board {
 
             array[pos] = *entry;
             
+=======
+            return;
+>>>>>>> 274cf5c02678e946afc83e1c03a712c18cdb926a
         }
 
         void print() {
